@@ -1,0 +1,104 @@
+.content {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../../assets/fondo3.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.About__content {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000000;
+}
+
+.Index__contetent {
+    width: 65%;
+    min-height: 100%;
+}
+
+.Index__text--data {
+    width: 75%;
+}
+
+.tamanio {
+    min-height: 90%;
+}
+
+.Index__size {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.item {
+    overflow: hidden;
+    width: 0%;
+}
+
+.item--new {
+    width: 100%;
+    transition: all;
+    transition-duration: 2s;
+}
+
+.item--new h1 {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.About__textalign {
+    text-align: justify;
+}
+
+.Skills__bar {
+    background-color: #3257A6;
+}
+
+.Skills__textalign {
+    text-align: center;
+}
+
+.Skills__glass {
+    background: rgba( 112, 112, 112, 0.2);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 0px);
+    -webkit-backdrop-filter: blur( 0px);
+    border-radius: 10px;
+}
+
+.Skills__table--size {
+    height: 62%;
+}
+
+@media (max-width:433px) {
+    .Skills__table--size {
+        width: 100%;
+    }
+}
+
+@media (min-width:345px) {
+    .Skills__table--size {
+        width: 75%;
+    }
+}
+
+.Contact__input--size {
+    width: 60%;
+}
+
+.Contact__label--size {
+    width: 40%;
+}
+
+@media (max-width:433px) {
+    .Contact__form--size {
+        width: 100%;
+    }
+}
+
+@media (min-width:345px) {
+    .Contact__form--size {
+        width: 50%;
+    }
+}
