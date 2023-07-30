@@ -7,6 +7,7 @@ import foto from '../../assets/undraw_maker_launch_re_rq81.svg'
 import contact_foto from '../../assets/undraw_personal_text_re_vqj3.svg'
 import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2' 
+import Footer from '../../components/Footer/Footer';
 
 
 const Index = () => {
@@ -152,6 +153,9 @@ const Index = () => {
                     <td className='p-2'><h3>HTML</h3></td>
                   </tr>
                   <tr >
+                    <td className='p-2'><h3>JavaScript</h3></td>
+                  </tr>
+                  <tr >
                     <td className='p-2'><h3>Bootstrap</h3></td>
                   </tr>
                   <tr >
@@ -177,6 +181,9 @@ const Index = () => {
                   </tr>
                   <tr >
                     <td className='p-2'><h3>C#</h3></td>
+                  </tr>
+                  <tr >
+                    <td className='p-2'><h3>Google Cloud</h3></td>
                   </tr>
                   <tr >
                     <td className='p-2'><h3>C++</h3></td>
@@ -289,9 +296,13 @@ const Index = () => {
             <img src={contact_foto} alt=""  className='w-100 h-100'/>
           </div>
           </div>
+         
         </div>
+       
       </section>
-
+      <section>
+        <Footer/> 
+      </section>
     </div>
   )
 }
