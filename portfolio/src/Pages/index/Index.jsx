@@ -39,25 +39,25 @@ const Index = () => {
   window.sr = ScrollReveal();
 
   sr.reveal('.Index__size', {
-    duration: 3000,
+    duration: 2000,
     origin: 'bottom',
     distance: '-100px',
   })
 
   sr.reveal('.About__reveal', {
-    duration: 3000,
+    duration: 2000,
     origin: 'bottom',
     distance: '-100px',
   })
 
   sr.reveal('.Skill__reveal', {
-    duration: 3000,
+    duration: 2000,
     origin: 'bottom',
     distance: '-100px',
   })
 
   sr.reveal('.Contact__reveal', {
-    duration: 3000,
+    duration: 2000,
     origin: 'bottom',
     distance: '-100px',
   })
@@ -126,7 +126,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id='Skills' className='main-container d-flex About__content'>
+      <section id='Skills' className='main-container d-flex About__content pt-10'>
         <div className='container-fluid '>
           <div className='row h-100  Skill__reveal text-light'>
             <div className="col-sm-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
@@ -167,7 +167,7 @@ const Index = () => {
               </table>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center mt-3">
-              <table className=" Skills__table--size w-75 Skills__glass">
+              <table className=" Skills__table--size  Skills__glass">
                 <thead>
                   <tr>
 
@@ -180,13 +180,10 @@ const Index = () => {
                     <td className='p-2'><h3>Node JS {"(Express JS)"}</h3></td>
                   </tr>
                   <tr >
-                    <td className='p-2'><h3>C#</h3></td>
+                    <td className='p-2'><h3>C#, C++</h3></td>
                   </tr>
                   <tr >
                     <td className='p-2'><h3>Google Cloud</h3></td>
-                  </tr>
-                  <tr >
-                    <td className='p-2'><h3>C++</h3></td>
                   </tr>
                   <tr >
                     <td className='p-2'><h3>Java {"(SpringBoot,JPA,Hibernate)"}</h3></td>
@@ -195,17 +192,12 @@ const Index = () => {
                     <td className='p-2'><h3>Php {"(CodeIgnaiter,Laravel)"}</h3></td>
                   </tr>
                   <tr >
-                    <td className='p-2'><h3>SQL</h3></td>
+                    <td className='p-2'><h3>SQL server, MySql</h3></td>
                   </tr>
                   <tr >
-                    <td className='p-2'><h3>MySql</h3></td>
+                    <td className='p-2'><h3>PostgreSQL, Oracle DataBase</h3></td>
                   </tr>
-                  <tr >
-                    <td className='p-2'><h3>PostgreSQL</h3></td>
-                  </tr>
-                  <tr >
-                    <td className='p-2'><h3>Oracle DataBase</h3></td>
-                  </tr>
+
 
 
                 </tbody>

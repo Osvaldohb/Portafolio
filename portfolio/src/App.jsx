@@ -14,6 +14,7 @@ function App() {
     <Routes >
       <Route path="/"  element={<Index/>} />
       <Route path="/menus" element={<Index/>}/>
+      <Route path="*" element={<Index/>}/>
     </Routes>
   </BrowserRouter>
     </>

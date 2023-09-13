@@ -11,7 +11,7 @@ import Swal from 'sweetalert2'
 const Footer = () => {
 
    
-
+    
       const handleAlert=()=>{
         Swal.fire({
             title: '¿Deseas contactarme de manera mas inmediata?',
@@ -44,7 +44,7 @@ const Footer = () => {
             <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/Osvaldohb" role="button"><img src={github} alt="" className='rounded-circle Footer__icon--size'/></a>
     
 
-            <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/osvaldo-santillan-jimenez-a96b9b137" role="button"><img src={linkendin} alt="" className='rounded-circle Footer__icon--size'/></a>
+            <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/osvaldosantillanjimenez/" role="button"><img src={linkendin} alt="" className='rounded-circle Footer__icon--size'/></a>
     
     
             <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button" onClick={e=>handleAlert()}><img src={gmail} alt="" className=' Footer__icon--size'/></a>
@@ -53,7 +53,7 @@ const Footer = () => {
             <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/osvaldosantillan_14/" role="button"><img src={insta} alt="" className=' Footer__icon--size'/></a>
     
     
-            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button" onClick={e=>handleAlertNum()}><div className='d-flex align-items-center h-100 w-100'><img src={whats} alt="" className=' Footer__icon--size'/></div></a>
+            <a className="btn btn-outline-light btn-floating m-1" href="https://w.app/cjQ9LK" role="button" ><div className='d-flex align-items-center h-100 w-100'><img src={whats} alt="" className=' Footer__icon--size'/></div></a>
         </section>
 
         </div>
@@ -62,7 +62,7 @@ const Footer = () => {
 
         <div className="text-center p-3" >
        
-        <a className="text-white" href="#">www.osvaldosantillan.com</a>
+        <a className="text-white" href="#">www.osvaldosantillan.tech</a>
         </div>
 
     </div>

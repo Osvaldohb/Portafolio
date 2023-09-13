@@ -3,7 +3,7 @@ import './Nav_comp.css'
 
 const nav_comp = () => {
   return (
-    <div className='w-100 '>
+    <div className='w-100'>
     <nav className="navbar navbar-expand-lg  navbar-dark">
     <div className="container-fluid  ">
       <a className="navbar-brand" href="#"><h2>OsvaldoSJ</h2></a>
